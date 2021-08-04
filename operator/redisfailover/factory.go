@@ -7,11 +7,11 @@ import (
 	"github.com/spotahome/kooper/operator"
 	"github.com/spotahome/kooper/operator/controller"
 
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
-	rfservice "github.com/spotahome/redis-operator/operator/redisfailover/service"
-	"github.com/spotahome/redis-operator/service/k8s"
-	"github.com/spotahome/redis-operator/service/redis"
+	"github.com/walk1ng/redis-operator/log"
+	"github.com/walk1ng/redis-operator/metrics"
+	rfservice "github.com/walk1ng/redis-operator/operator/redisfailover/service"
+	"github.com/walk1ng/redis-operator/service/k8s"
+	"github.com/walk1ng/redis-operator/service/redis"
 )
 
 const (

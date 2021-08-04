@@ -13,11 +13,11 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
-	mRFService "github.com/spotahome/redis-operator/mocks/operator/redisfailover/service"
-	mK8SService "github.com/spotahome/redis-operator/mocks/service/k8s"
-	rfOperator "github.com/spotahome/redis-operator/operator/redisfailover"
+	"github.com/walk1ng/redis-operator/log"
+	"github.com/walk1ng/redis-operator/metrics"
+	mRFService "github.com/walk1ng/redis-operator/mocks/operator/redisfailover/service"
+	mK8SService "github.com/walk1ng/redis-operator/mocks/service/k8s"
+	rfOperator "github.com/walk1ng/redis-operator/operator/redisfailover"
 )
 
 func TestCheckAndHeal(t *testing.T) {

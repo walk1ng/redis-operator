@@ -20,14 +20,14 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
 	"k8s.io/client-go/util/homedir"
 
-	redisfailoverv1 "github.com/spotahome/redis-operator/api/redisfailover/v1"
-	redisfailoverclientset "github.com/spotahome/redis-operator/client/k8s/clientset/versioned"
-	"github.com/spotahome/redis-operator/cmd/utils"
-	"github.com/spotahome/redis-operator/log"
-	"github.com/spotahome/redis-operator/metrics"
-	"github.com/spotahome/redis-operator/operator/redisfailover"
-	"github.com/spotahome/redis-operator/service/k8s"
-	"github.com/spotahome/redis-operator/service/redis"
+	redisfailoverv1 "github.com/walk1ng/redis-operator/api/redisfailover/v1"
+	redisfailoverclientset "github.com/walk1ng/redis-operator/client/k8s/clientset/versioned"
+	"github.com/walk1ng/redis-operator/cmd/utils"
+	"github.com/walk1ng/redis-operator/log"
+	"github.com/walk1ng/redis-operator/metrics"
+	"github.com/walk1ng/redis-operator/operator/redisfailover"
+	"github.com/walk1ng/redis-operator/service/k8s"
+	"github.com/walk1ng/redis-operator/service/redis"
 )
 
 const (

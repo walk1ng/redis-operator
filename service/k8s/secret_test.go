@@ -3,8 +3,8 @@ package k8s
 import (
 	"testing"
 
-	"github.com/spotahome/redis-operator/log"
 	"github.com/stretchr/testify/assert"
+	"github.com/walk1ng/redis-operator/log"
 	corev1 "k8s.io/api/core/v1"
 
 	errors "k8s.io/apimachinery/pkg/api/errors"

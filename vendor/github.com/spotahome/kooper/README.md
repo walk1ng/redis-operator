@@ -172,7 +172,7 @@ The starting point would be to check the [concepts](docs/concepts.md) and then c
 
 ## Who is using kooper
 
-- [redis-operator](https://github.com/spotahome/redis-operator)
+- [redis-operator](https://github.com/walk1ng/redis-operator)
 - [node-labeler-operator](https://github.com/barpilot/node-labeler-operator)
 - [source-ranges-controller](https://github.com/jeffersongirao/source-ranges-controller)
 
